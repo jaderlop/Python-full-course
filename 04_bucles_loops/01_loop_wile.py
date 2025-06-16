@@ -83,6 +83,21 @@ else:
     print('el bucle termino')
     print(contador)
 
+os.system('clear')
+
+numero = int(input('ingresa un numero par: '))
+print(numero)
+
+while numero % 2 != 0:
+    numero = int(input('usuario el numero no es par: '))
+    print(numero)
+else:
+    print(f'si ese numero {numero} es par')
+
+
+os.system('clear')
+# TRY
+
 
         
 
